@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Lagos Food Bank Initiative | Our Mission</title>
+    <meta name="description" content="Learn about Lagos Food Bank mission to end hunger. Founded 2016 in Yaba, serving 50,000 families monthly.">
+    <meta name="keywords" content="Lagos Food Bank history, mission zero hunger, Yaba food bank">
+    <meta name="author" content="Lagos Food Bank Initiative">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body { font-family: Arial, sans-serif; line-height:1.6; color:#1d1d1f; background:#f8f9fa; }
+        .container { width:90%; max-width:1200px; margin:0 auto; padding:1em; }
+        header { background:white; box-shadow:0 2px 10px rgba(0,0,0,0.1); position:sticky; top:0; z-index:10; }
+        .navbar { display:flex; justify-content:space-between; align-items:center; padding:1em 0; }
+        .logo { font-weight:800; font-size:1.4rem; color:#0a7a3e; text-decoration:none; }
+        .logo span { color:#ffba08; }
+        .nav-links { display:flex; list-style:none; gap:1.5em; }
+        .nav-links a { text-decoration:none; color:#1d1d1f; font-weight:600; }
+        .nav-links a.active { color:#0a7a3e; border-bottom:2px solid #0a7a3e; }
+        .grid-2 { display:grid; grid-template-columns:1fr 1fr; gap:2em; margin-top:2em; align-items:center; }
+        .card { background:white; padding:2em; border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.05); margin-bottom:1.5em; transition:transform 0.3s; }
+        .card:hover { transform:scale(1.02); }
+        .card h2, .card h3 { color:#0a7a3e; }
+        h1 { color:#0a7a3e; margin-top:1em; }
+        .fade-in { opacity:0; transform:translateY(20px); animation: fadeUp 1s forwards; }
+        @keyframes fadeUp { to { opacity:1; transform:translateY(0); } }
+        img { max-width:100%; border-radius:12px; }
+        footer { background:#1d1d1f; color:white; padding:2em 0; margin-top:3em; text-align:center; }
+        @media (max-width:768px){ .grid-2{grid-template-columns:1fr;} .navbar{flex-direction:column;} }
+    </style>
+</head>
+<body>
+<header>
+    <div class="container navbar">
+        <a href="index.html" class="logo">LAGOS <span>FOOD BANK</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="get-involved.html">Get Involved</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</header>
+<main class="container fade-in">
+    <h1>About Lagos Food Bank Initiative</h1>
+    <div class="grid-2">
+        <div>
+            <div class="card"><h2>Our Mission</h2><p>To provide nutritious food to vulnerable persons through sustainable food banking, partnerships, and community empowerment in Lagos.</p></div>
+            <div class="card"><h2>Our Vision</h2><p>A Lagos where no one goes to bed hungry, and where food waste is transformed into hope and dignity.</p></div>
+            <div class="card"><h3>Why We Exist</h3><p>Lagos generates over 13,000 tonnes of waste daily, 40% of it is food. Over 2 million people face food insecurity. We bridge that gap.</p></div>
+        </div>
+        <div>
+            <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=600" alt="Lagos Food Bank volunteers distributing food to children in community">
+            <div class="card" style="margin-top:1.5em; background:#0a7a3e; color:white;"><h3 style="color:white;">Founded in 2016</h3><p>Started in Yaba with 3 volunteers, now 2,000+ volunteers serving 50,000 families monthly.</p></div>
+        </div>
+    </div>
+</main>
+<footer><p>&copy; 2026 Lagos Food Bank Initiative</p></footer>
+<script src="js/script.js"></script>
+</body>
+</html>

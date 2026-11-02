@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Get Involved - Donate or Volunteer | Lagos Food Bank</title>
+<meta name="description" content="Donate food or volunteer with Lagos Food Bank. Join 1000+ volunteers fighting hunger in Lagos.">
+<meta name="keywords" content="Lagos Food Bank, donate food Lagos, volunteer">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family: Arial, sans-serif; line-height:1.6; color:#1d1d1f; background:#f8f9fa; }
+    .container { width:90%; max-width:1200px; margin:0 auto; padding:1em; }
+    header { background:white; box-shadow:0 2px 10px rgba(0,0,0,0.1); position:sticky; top:0; }
+    .navbar { display:flex; justify-content:space-between; align-items:center; padding:1em 0; }
+    .logo { font-weight:800; font-size:1.4rem; color:#0a7a3e; text-decoration:none; }
+    .logo span { color:#ffba08; }
+    .nav-links { display:flex; list-style:none; gap:1.5em; }
+    .nav-links a { text-decoration:none; color:#1d1d1f; font-weight:600; }
+    .nav-links a.active { color:#0a7a3e; border-bottom:2px solid #0a7a3e; }
+    .card { background:white; padding:2em; border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.05); margin-bottom:1.5em; }
+    .card h1, .card h3 { color:#0a7a3e; }
+    h1 { color:#0a7a3e; margin:1em 0; }
+    input, textarea, select { width:100%; padding:0.9em; border:1px solid #ddd; border-radius:8px; margin-top:0.3em; margin-bottom:1em; font-family:inherit; font-size:1rem; }
+    input:focus, textarea:focus, select:focus { outline:2px solid #0a7a3e; border-color:#0a7a3e; }
+    .btn { display:inline-block; padding:0.9em 2em; border-radius:50px; text-decoration:none; font-weight:700; border:none; cursor:pointer; }
+    .btn-primary { background-color:#0a7a3e; color:white; }
+    .btn-primary:hover { background-color:#065a2c; }
+    .error { color:red; font-size:0.85rem; display:block; margin-top:-8px; margin-bottom:10px; }
+    footer { background:#1d1d1f; color:white; padding:2em 0; margin-top:3em; text-align:center; }
+    @media (max-width:768px){ .navbar{flex-direction:column;} }
+</style>
+</head>
+<body>
+<header><div class="container navbar"><a href="index.html" class="logo">LAGOS <span>FOOD BANK</span></a>
+<ul class="nav-links"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="programs.html">Programs</a></li><li><a href="get-involved.html" class="active">Get Involved</a></li><li><a href="contact.html">Contact</a></li></ul></div></header>
+<main class="container">
+<h1>Get Involved - Donation Form</h1>
+<form id="donationForm" class="card">
+    <label>Full Name *</label><input type="text" id="name" required alt="Enter full name for donation">
+    <span class="error" id="nameError"></span>
+    <label>Email *</label><input type="email" id="email" required alt="Enter email address">
+    <span class="error" id="emailError"></span>
+    <label>Phone *</label><input type="tel" id="phone" required pattern="[0-9]{11}" alt="Enter 11 digit phone number">
+    <span class="error" id="phoneError"></span>
+    <label>How you want to help *</label>
+    <select id="helpType" required><option value="">Select</option><option>Donate Food</option><option>Volunteer</option><option>Donate Money</option></select>
+    <label>Message</label><textarea id="message" rows="4" alt="Additional message about donation"></textarea>
+    <button type="submit" class="btn btn-primary">Submit Donation</button>
+    <p id="successMsg" style="color:#0a7a3e; display:none; font-weight:bold; margin-top:1em;">Thank you! Form submitted successfully.</p>
+</form>
+</main>
+<footer><p>&copy; 2026 Lagos Food Bank Initiative</p></footer>
+<script src="js/script.js"></script>
+</body>
+</html>
