@@ -2,8 +2,8 @@
 # LAGOS FOOD BANK INITIATIVE - WEDE5020 FINAL POE
 
 ## Student Information
-- **Name:** MANENZHE DAKALO PROSPERITY
-- **Student Number:** ST104... (replace with yours)
+- **Name:** MANGANYI NTSAKELO LETELO
+- **Student Number:** ST10529807
 - **Module:** WEDE5020 - Web Development
 - **POE Part:** Part 3 - Adding Functionality and SEO
 - **Submission Date:** 2 November 2026
@@ -14,8 +14,8 @@ Lagos Food Bank Initiative website is a responsive non-profit website aimed at f
 This website addresses food insecurity by providing an online platform for donations, volunteer registration, and awareness. It bridges the gap between food waste (40% of Lagos waste is food) and over 2 million people facing hunger.
 
 ## Live Links
-- **Live Website (GitHub Pages):** https://yourusername.github.io/LagosFoodBank/
-- **GitHub Repository:** https://github.com/yourusername/LagosFoodBank
+- **Live Website (GitHub Pages):** https://ntsakelomanganyi856.github.io/LagosFoodBank/
+- **GitHub Repository:** https://github.com/ntsakelomanganyi856/LagosFoodBank
 - **Figma Design (Public):** https://www.figma.com/file/yourfigmafile
 
 > Replace the links above with your actual links before submitting
